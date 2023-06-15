@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section .background{
+    background-image: url(/img/l2.jpg);
+    /* margin: 0px 100px; */
+}
+
+section{
+    font-family: 'Ubuntu', sans-serif;
+    /* margin: 0px 100px; */
+}
+
+section .sec-p{
+    padding: 30px 0px;
+    margin: 0px 100px;
+}
+
+section .sec-p .navbar ul{
+    display: flex;
+    gap: 20px;
+    top: 33px;
+    position: fixed;
+    right: 30rem;
+}
+
+section .sec-p .navbar ul li{
+    list-style: none;
+}
+
+section .sec-p .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+}
+
+section .sec-p .navbar ul .theme {
+    display: flex;
+    margin-left: 16px;
+    margin-top: -8px;
+    border: 2px solid transparent;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.349);
+    color: white;
+    transition: 0.3s ease all;
+}
+
+section .sec-p .navbar ul .theme span{
+    color: white;
+    
+}
+
+section .sec-p .navbar ul .theme:hover{
+    background-color: #f42a2a;
+}
+
+section .sec-p .logo{
+    font-size: 30px;
+    position: fixed;
+}
+
+section .sec-p .logo h1{
+    color: white;
+}
+
+section .sec-p .logo span{
+    color: #f42a2a;
+}
+
+section .sec-p .theme1{
+    position: fixed;
+    margin-top: -2px;
+    font-size: 22px;
+    right: 6rem;
+    color: white;
+}
+
+section .bg-img{
+    margin: -100px;
+    padding: 0;
+}
+
+section .bg-img img{
+    height: 695px;
+    width: 100%;
+    
+}
+
+section .bg-img .title{
+    position: absolute;
+    margin: 0px 13rem;
+    top: 15rem;
+    color: white;
+}
+
+section .bg-img .title h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+section .bg-img .title p{
+    line-height: 30px;
+    padding-left: 18px;
+    color: #f3f3f3;
+    max-width: 600px;
+    opacity: .9;
+    border-left: 4px solid #fff;
+}
+
+section .bg-img .title .btn{
+    padding-top: 50px;
+}
+
+section .bg-img .title .btn .btn1{
+    height: 3rem;
+    width: 10rem;
+    color: #f42a2a;
+    font-weight: 700;
+    transition: 0.5s ease all;
+    border-radius: 7px;
+    border: transparent;
+}
+
+section .bg-img .title .btn .btn1:hover{
+    background-color: #f42a2a;
+    color: white;
+}
+
+section .bg-img .title .btn .btn2{
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    transition: 0.5s ease all;
+    border-radius: 7px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+section .bg-img .title .btn .btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
